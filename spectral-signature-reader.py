@@ -147,11 +147,11 @@ def conversion2txt(ruta_inicial, ruta_final_extension):
     df_final = DataFrame() 
     
     # Se añade cada uno de los elementos al dataframe
-    ancho_banda = consolidacion_datos(ruta)[0]
+    longitud_onda = consolidacion_datos(ruta)[0]
     reflectancia = consolidacion_datos(ruta)[1]
     
     # Se añade columna correspondiente al ancho de banda
-    df_final['ancho_banda'] = ancho_banda
+    df_final['longitud_onda'] = longitud_onda
     
     # Se añaden columnas para cada una de las firmas espectrales
     for i in range(len(reflectancia)):
