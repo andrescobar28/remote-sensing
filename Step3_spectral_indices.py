@@ -107,8 +107,8 @@ for i in range(len(escaneo_firmas)):
         
     print("--",str(round(100*2/6,2)),f'% EVI {escaneo_firmas[i][:-5]}: ', evi)
     
-    # Cálculo SAVI = 1.5*((1+0.5)(NIR-RED) / (NIR+RED+0.5))
-    savi = 1.5*(((1+0.5)*(promedio_nir-promedio_red))/(promedio_nir+promedio_red+0.5))
+    # Cálculo SAVI = (NIR-RED) / (NIR+RED+0.428) * 1.428
+    savi = (promedio_nir-promedio_red)/(promedio_nir+promedio_red+0.428)*1.428
     
     lista_c1_df.append(f'SAVI {escaneo_firmas[i][:-5]}')
     lista_c2_df.append(savi)
