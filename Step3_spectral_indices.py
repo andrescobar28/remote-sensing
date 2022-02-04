@@ -95,7 +95,7 @@ for i in range(len(escaneo_firmas)):
     lista_c1_df.append(f'NIR {escaneo_firmas[i][:-5]}')
     lista_c2_df.append(nir)
     
-    print("--",str(round(100*1/6,2)),f'% NIR {escaneo_firmas[i][:-5]}: ', nir)
+    print("--",str(round(100*1/6,2)),f'% NDVI {escaneo_firmas[i][:-5]}: ', nir)
 
     # Cálculo EVI = (2.5*(NIR-RED)) / (NIR + 6*RED - 7.5*BLUE + 1)   
     promedio_blue = mean(lista_blue)
