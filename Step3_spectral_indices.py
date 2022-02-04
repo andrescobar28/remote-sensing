@@ -101,6 +101,10 @@ for i in range(len(escaneo_firmas)):
     promedio_blue = mean(lista_blue)
     evi = 2.5*((promedio_nir-promedio_red) / (promedio_nir + 6*promedio_red - 7.5*promedio_blue + 1))    
     # print(promedio_blue)
+    
+    lista_c1_df.append(f'EVI {escaneo_firmas[i][:-5]}')
+    lista_c2_df.append(evi)
+        
     print("--",str(round(100*2/6,2)),f'% EVI {escaneo_firmas[i][:-5]}: ', evi)
     
     # Cálculo SAVI = 1.5*((1+0.5)(NIR-RED) / (NIR+RED+0.5))
