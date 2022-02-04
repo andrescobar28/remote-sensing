@@ -168,21 +168,4 @@ print("\nEjecución exitosa!")
 print("Se ha creado el directorio 'Cálculo de Índices Espectrales'")  
 print("\nPresione ENTER para finalizar...")
 input()  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
