@@ -5,7 +5,6 @@ Created on Mon Jan 24 10:20:10 2022
 @author1: ANDRES JULIAN ESCOBAR CARDONA - Correo: andres.julian.escobar@correounivalle.edu.co
 @author2: EDUARDO TAMAYO CORDOBA - Correo: eduardo.tamayo@correounivalle.edu.co
 @author3: VALENTINA SEVILLANO RAMIREZ - Correo: valentina.sevillano@correounivalle.educ.o
-@author4: LIZETH CATHERINE CARDENAS ALVARADO - Correo: lizeth.cardenas@correounivalle.edu.co
 
 UNIVERSIDAD DEL VALLE - INGENIERÍA TOPOGRÁFICA
 2022-1
